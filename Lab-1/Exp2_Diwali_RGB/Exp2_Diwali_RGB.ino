@@ -22,10 +22,13 @@
 
 void setup() {
   // set RGB LED pins as Output
-  
-
+  pinMode(RED_LED, OUTPUT);
+  pinMode(GREEN_LED, OUTPUT);
+  pinMode(BLUE_LED, OUTPUT);
   // turn OFF the LED initially
-  
+  digitalWrite(RED_LED, HIGH);
+  digitalWrite(GREEN_LED, HIGH);
+  digitalWrite(BLUE_LED, HIGH);
 }
 
 // turn ON RED LED
